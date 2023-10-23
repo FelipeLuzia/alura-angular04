@@ -26,9 +26,7 @@ export class ListaDeCompraService {
     },
   ];
 
-  constructor() {
-    console.log('Instanciando dependências necessárias para o serviço.');
-  }
+  constructor() {}
 
   getListaDeCompra() {
     return this.listaDeCompra;
